@@ -1,6 +1,6 @@
 {
     "rules": [
-      {"question": "Translate 'I read the book' with correct case", "answer": "Я читаю книгу", "explanation": "Accusative case for 'book' (книгу) as the direct object of an imperfective verb."},
+      {"question": "Translate 'I read the book' with correct case", "answer": "Я читаю книгу", "explanation": "Accusative case for 'book' (книгу) as the direct object."},
       {"question": "Translate 'The cat sleeps' with correct case", "answer": "Кот спит", "explanation": "Nominative case for 'cat' (кот) as the subject."},
       {"question": "Conjugate 'писать' (to write) for 'ты' (present tense)", "answer": "пишешь", "explanation": "For 'ты', drop -ть and add -ешь for first-conjugation -ать verbs."},
       {"question": "Translate 'I give the cat food' with correct case (dative)", "answer": "Я даю коту еду", "explanation": "Dative case for 'cat' (коту) as the indirect object."},
@@ -8,7 +8,17 @@
       {"question": "Translate 'I am in the house' with correct case (prepositional)", "answer": "Я в доме", "explanation": "Prepositional case for 'house' (доме) after 'в' for location."},
       {"question": "Translate 'I play with the cat' with correct case (instrumental)", "answer": "Я играю с котом", "explanation": "Instrumental case for 'cat' (котом) after 'с' for accompaniment."},
       {"question": "What is the dative singular of 'собака' (dog)?", "answer": "собаке", "explanation": "For feminine nouns ending in -а, replace -а with -е in the dative singular."},
-      {"question": "What is the genitive plural of 'книга' (book)?", "answer": "книг", "explanation": "For feminine nouns ending in -а, drop -а and adjust to -Ø (zero ending) for genitive plural; stem 'книг-' loses final vowel."},
-      {"question": "Conjugate 'идти' (to go) for 'мы' (present tense)", "answer": "идём", "explanation": "For 'мы', drop -ти and add -ём for irregular verbs like 'идти'."}
+      {"question": "What is the genitive plural of 'книга' (book)?", "answer": "книг", "explanation": "For feminine nouns ending in -а, drop -а and adjust to -Ø (zero ending) for genitive plural."},
+      {"question": "Conjugate 'идти' (to go) for 'мы' (present tense)", "answer": "идём", "explanation": "For 'мы', drop -ти and add -ём for irregular verbs like 'идти'."},
+      {"question": "Translate 'I wrote the letter' with correct aspect", "answer": "Я написал письмо", "explanation": "Use perfective 'написал' for completed actions in the past."},
+      {"question": "What is the nominative plural of 'стол' (table)?", "answer": "столы", "explanation": "For masculine nouns ending in a consonant, add -ы."},
+      {"question": "Conjugate 'читать' (to read) for 'он' (present tense)", "answer": "читает", "explanation": "For 'он', drop -ть and add -ет for first-conjugation -ать verbs."},
+      {"question": "Translate 'I will go to the store' with correct aspect", "answer": "Я пойду в магазин", "explanation": "Use perfective 'пойду' for future actions."},
+      {"question": "What is the instrumental singular of 'друг' (friend)?", "answer": "другом", "explanation": "For masculine nouns ending in a consonant, add -ом in the instrumental singular."},
+      {"question": "Translate 'I wash myself' (reflexive)", "answer": "Я моюсь", "explanation": "Add -сь to the verb 'мою' for reflexive actions."},
+      {"question": "Form the comparative of 'большой' (big)", "answer": "больше", "explanation": "Irregular comparative form of 'большой' is 'больше'."},
+      {"question": "Translate 'This book is more interesting'", "answer": "Эта книга интереснее", "explanation": "Add -ее to 'интересный' for comparative adjectives."},
+      {"question": "Translate 'I will read the book' (imperfective future)", "answer": "Я буду читать книгу", "explanation": "Use 'буду' + infinitive for imperfective future actions."},
+      {"question": "What is the accusative plural of 'день' (day)?", "answer": "дни", "explanation": "For masculine nouns ending in a soft sign, replace -ь with -и in accusative plural."}
     ]
   }

@@ -2,6 +2,18 @@
     "rules": [
       {"question": "Conjugate 'hablar' for 'yo'", "answer": "hablo", "explanation": "For -ar verbs, drop -ar and add -o for 'yo'."},
       {"question": "Translate 'The girl runs' with correct article", "answer": "La niña corre", "explanation": "Use 'la' for feminine singular nouns."},
-      {"question": "Conjugate 'comer' for 'ellos'", "answer": "comen", "explanation": "For -er verbs, drop -er and add -en for 'ellos'."}
+      {"question": "Conjugate 'comer' for 'ellos'", "answer": "comen", "explanation": "For -er verbs, drop -er and add -en for 'ellos'."},
+      {"question": "Translate 'I am happy' using 'ser'", "answer": "Soy feliz", "explanation": "Use 'ser' for permanent states like identity or characteristics."},
+      {"question": "Translate 'I am in the park' using 'estar'", "answer": "Estoy en el parque", "explanation": "Use 'estar' for temporary states like location."},
+      {"question": "Conjugate 'vivir' for 'nosotros'", "answer": "vivimos", "explanation": "For -ir verbs, drop -ir and add -imos for 'nosotros'."},
+      {"question": "Translate 'I ate pizza yesterday' in preterite", "answer": "Comí pizza ayer", "explanation": "Use preterite for completed past actions."},
+      {"question": "Translate 'I used to play soccer' in imperfect", "answer": "Jugaba al fútbol", "explanation": "Use imperfect for habitual past actions."},
+      {"question": "Conjugate 'levantarse' for 'yo' (reflexive)", "answer": "me levanto", "explanation": "Add 'me' before the verb for reflexive actions."},
+      {"question": "Translate 'The book is on the table'", "answer": "El libro está sobre la mesa", "explanation": "Use 'estar' for location of objects."},
+      {"question": "Translate 'I hope it rains' (subjunctive)", "answer": "Espero que llueva", "explanation": "Use present subjunctive 'llueva' after 'espero que' for wishes."},
+      {"question": "Translate 'I give him the book' (indirect object)", "answer": "Le doy el libro", "explanation": "Use 'le' for 'him' as the indirect object."},
+      {"question": "Translate 'I see it' (direct object)", "answer": "Lo veo", "explanation": "Use 'lo' for masculine singular direct objects like 'it'."},
+      {"question": "Conjugate 'tener' for 'yo' (irregular)", "answer": "tengo", "explanation": "Irregular stem 'teng-' + -o for 'yo' in present tense."},
+      {"question": "Translate 'I will go' with 'ir'", "answer": "Voy a ir", "explanation": "Use 'voy a' + infinitive for near future actions."}
     ]
   }
