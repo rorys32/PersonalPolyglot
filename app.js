@@ -1,6 +1,6 @@
 // Personal Polyglot Core Logic
-// 1.0.006
-// Adjusted daily goal, expanded phrase cycling
+// 1.0.007
+// Enhanced Russian grammar support
 
 let languages = [];
 let currentLanguage = "German";
@@ -10,7 +10,7 @@ let progress = {
     Russian: { daysStudied: 0, materialCovered: 0, quizzesPassed: 0, scores: [], lastDay: null },
     Spanish: { daysStudied: 0, materialCovered: 0, quizzesPassed: 0, scores: [], lastDay: null }
 };
-let dailyGoal = 10; // Increased from 3
+let dailyGoal = 10;
 let dailyProgress = { German: 0, Russian: 0, Spanish: 0 };
 
 // Fallback data if JSON fails
@@ -71,7 +71,7 @@ function initApp() {
     document.getElementById('quizzesBtn').addEventListener('click', showQuizzes);
     document.getElementById('progressBtn').addEventListener('click', showProgress);
     document.getElementById('exportBtn').addEventListener('click', exportData);
-    document.getElementById('resetProgressBtn').addEventListener('click', resetDailyProgress); // New reset button
+    document.getElementById('resetProgressBtn').addEventListener('click', resetDailyProgress);
     loadProgress();
 }
 
@@ -133,8 +133,9 @@ function showQuizzes() {
     showSection('quizzes');
     const container = document.getElementById('quizContainer');
     const rule = languageData[currentLanguage].grammar[Math.floor(Math.random() * languageData[currentLanguage].grammar.length)];
+    const quizType = rule.question.includes("Conjugate") ? "Conjugation" : rule.question.includes("What is the") ? "Declension" : "Translation";
     container.innerHTML = `
-        <p>${currentLanguage} Quiz: ${rule.question}</p>
+        <p>${currentLanguage} Quiz (${quizType}): ${rule.question}</p>
         <input type="text" id="quizAnswer">
     `;
     document.getElementById('submitQuiz').onclick = () => {
@@ -181,7 +182,6 @@ function updateDailyProgress() {
     const progressBar = document.getElementById('dailyProgress');
     progressBar.value = total;
     if (total === dailyGoal) alert("Great job! Goal achieved—keep going or see you tomorrow!");
-    // Removed hard stop, now just a milestone
 }
 
 // Reset daily progress
