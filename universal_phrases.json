@@ -1,0 +1,38 @@
+{
+    "German": [
+      {"phrase": "Hallo", "translation": "Hello", "phonetics": "HAH-lo", "category": "Greetings and Introductions"},
+      {"phrase": "Wo ist der Bahnhof?", "translation": "Where is the train station?", "phonetics": "VOH ist der BAHN-hof", "category": "Getting Around"},
+      {"phrase": "Ich brauche Hilfe.", "translation": "I need help.", "phonetics": "Ikh BROW-khuh HIL-fuh", "category": "Emergency Situations"},
+      {"phrase": "Kann ich Wasser haben?", "translation": "Can I have some water?", "phonetics": "KAHN ikh VAS-ser HA-ben", "category": "Ordering Food"},
+      {"phrase": "Sprechen Sie Englisch?", "translation": "Do you speak English?", "phonetics": "SHPREKH-en zee ENG-lish", "category": "Polite Language Inquiry"},
+      {"phrase": "Wie ist das Wetter heute?", "translation": "What’s the weather like today?", "phonetics": "VEE ist das VET-ter HOY-tuh", "category": "Weather and Time"},
+      {"phrase": "Gibt es ein Steakgericht, das Sie empfehlen können?", "translation": "Is there a steak dish you can recommend?", "phonetics": "Gibt es ayn SHTAYK-geh-RIKHT, das zee emp-FEH-len KÖN-nen", "category": "Ordering Food"},
+      {"phrase": "Meine Tochter isst nur Fisch.", "translation": "My daughter only eats fish.", "phonetics": "MY-neh TOKH-ter isst noor FISH", "category": "Ordering Food"},
+      {"phrase": "Können wir die Rechnung haben?", "translation": "Can we have the check please?", "phonetics": "KÖN-nen veer dee REKH-noong HA-ben", "category": "Ordering Food"},
+      {"phrase": "Das Essen und der Service waren einwandfrei.", "translation": "The food and service were impeccable.", "phonetics": "Das ES-sen oont der SER-vis VAH-ren ayn-VANT-fry", "category": "Ordering Food"}
+    ],
+    "Russian": [
+      {"phrase": "Привет", "translation": "Hello", "phonetics": "Pree-VYET", "category": "Greetings and Introductions"},
+      {"phrase": "Где автобус?", "translation": "Where is the bus?", "phonetics": "Gde av-TOH-boos", "category": "Getting Around"},
+      {"phrase": "Помогите!", "translation": "Help!", "phonetics": "Po-mo-GEE-tee", "category": "Emergency Situations"},
+      {"phrase": "Можно воды?", "translation": "Can I have some water?", "phonetics": "MOZH-no vo-DY", "category": "Ordering Food"},
+      {"phrase": "Вы говорите по-английски?", "translation": "Do you speak English?", "phonetics": "Vy go-vo-RI-tee po-an-GLEE-skee", "category": "Polite Language Inquiry"},
+      {"phrase": "Какая сегодня погода?", "translation": "What’s the weather like today?", "phonetics": "Ka-KA-ya se-VOD-nya po-GO-da", "category": "Weather and Time"},
+      {"phrase": "Есть ли блюдо с стейком, которое вы можете порекомендовать?", "translation": "Is there a steak dish you can recommend?", "phonetics": "Yest lee BLYOO-do s STAY-kom, ko-TO-roe vy MO-zhe-tye po-reh-kom-men-DO-vat", "category": "Ordering Food"},
+      {"phrase": "Моя дочь ест только рыбу.", "translation": "My daughter only eats fish.", "phonetics": "Mo-YA doch YEST TOL-ko RY-boo", "category": "Ordering Food"},
+      {"phrase": "Можно нам счёт, пожалуйста?", "translation": "Can we have the check please?", "phonetics": "MOZH-no nam SCHYOT, po-ZHAL-ooy-sta", "category": "Ordering Food"},
+      {"phrase": "Еда и обслуживание были безупречны.", "translation": "The food and service were impeccable.", "phonetics": "YEH-da ee ob-SLOO-zhi-va-nee BY-lee bez-oo-prech-NY", "category": "Ordering Food"}
+    ],
+    "Spanish": [
+      {"phrase": "Hola", "translation": "Hello", "phonetics": "OH-la", "category": "Greetings and Introductions"},
+      {"phrase": "¿Dónde está el baño?", "translation": "Where is the bathroom?", "phonetics": "DON-deh es-TAH el BAH-nyo", "category": "Using the Restroom"},
+      {"phrase": "Necesito ayuda.", "translation": "I need help.", "phonetics": "Neh-seh-SEE-to ah-YOO-da", "category": "Emergency Situations"},
+      {"phrase": "¿Puedo tener agua?", "translation": "Can I have some water?", "phonetics": "PWEH-do teh-NER AH-gwa", "category": "Ordering Food"},
+      {"phrase": "¿Hablas inglés?", "translation": "Do you speak English?", "phonetics": "AB-las een-GLES", "category": "Polite Language Inquiry"},
+      {"phrase": "¿Cómo está el clima hoy?", "translation": "What’s the weather like today?", "phonetics": "KOH-mo es-TAH el KLEE-ma OY", "category": "Weather and Time"},
+      {"phrase": "¿Hay un plato de carne que puedas recomendar?", "translation": "Is there a steak dish you can recommend?", "phonetics": "Eye oon PLAH-to deh KAR-neh keh PWEH-das reh-ko-men-DAR", "category": "Ordering Food"},
+      {"phrase": "Mi hija solo come pescado.", "translation": "My daughter only eats fish.", "phonetics": "Mee EE-ha SOH-lo KOH-meh pes-KAH-do", "category": "Ordering Food"},
+      {"phrase": "¿Podemos tener la cuenta, por favor?", "translation": "Can we have the check please?", "phonetics": "Po-DEH-mos teh-NER la KWEN-ta, por fah-VOR", "category": "Ordering Food"},
+      {"phrase": "La comida y el servicio fueron impecables.", "translation": "The food and service were impeccable.", "phonetics": "La ko-MEE-da ee el ser-VEE-syo FWEH-ron im-peh-KAH-bles", "category": "Ordering Food"}
+    ]
+  }

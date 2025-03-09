@@ -1,0 +1,7 @@
+{
+    "rules": [
+      {"question": "Conjugate 'hablar' for 'yo'", "answer": "hablo", "explanation": "For -ar verbs, drop -ar and add -o for 'yo'."},
+      {"question": "Translate 'The girl runs' with correct article", "answer": "La niña corre", "explanation": "Use 'la' for feminine singular nouns."},
+      {"question": "Conjugate 'comer' for 'ellos'", "answer": "comen", "explanation": "For -er verbs, drop -er and add -en for 'ellos'."}
+    ]
+  }

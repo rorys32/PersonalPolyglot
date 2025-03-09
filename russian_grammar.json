@@ -1,0 +1,11 @@
+{
+    "rules": [
+      {"question": "Translate 'I read the book' with correct case", "answer": "Я читаю книгу", "explanation": "Accusative case for 'book' (книгу) as the direct object."},
+      {"question": "Translate 'The cat sleeps' with correct case", "answer": "Кот спит", "explanation": "Nominative case for 'cat' (кот) as the subject."},
+      {"question": "Conjugate 'писать' (to write) for 'ты'", "answer": "пишешь", "explanation": "For 'ты', drop -ть and add -ешь for -ать verbs."},
+      {"question": "Translate 'I give the cat food' with correct case (dative)", "answer": "Я даю коту еду", "explanation": "Dative case for 'cat' (коту) as the indirect object."},
+      {"question": "Translate 'I have no cat' with correct case (genitive)", "answer": "У меня нет кота", "explanation": "Genitive case for 'cat' (кота) to indicate absence with 'нет'."},
+      {"question": "Translate 'I am in the house' with correct case (prepositional)", "answer": "Я в доме", "explanation": "Prepositional case for 'house' (доме) after 'в' for location."},
+      {"question": "Translate 'I play with the cat' with correct case (instrumental)", "answer": "Я играю с котом", "explanation": "Instrumental case for 'cat' (котом) after 'с' for accompaniment."}
+    ]
+  }

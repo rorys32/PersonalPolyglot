@@ -1,0 +1,90 @@
+/* Personal Polyglot Styling */
+/* 1.0.005 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF176; /* Warm yellow */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF9800; /* Soft orange */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+#progressBarContainer {
+    margin-top: 10px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+
+main {
+    padding: 20px 20px 80px 20px; /* Increased bottom padding to clear footer */
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.language-box {
+    border: 2px solid #4FC3F7; /* Sky blue */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    cursor: move;
+}
+
+.phrase-container {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #FF9800;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0; /* Added padding for breathing room */
+}
+
+nav button {
+    background-color: #4FC3F7;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button {
+    background-color: #4FC3F7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF9800;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+{
+    "languages": [
+      {
+        "name": "German",
+        "code": "de",
+        "grammarPath": "german_grammar.json"
+      },
+      {
+        "name": "Russian",
+        "code": "ru",
+        "grammarPath": "russian_grammar.json"
+      },
+      {
+        "name": "Spanish",
+        "code": "es",
+        "grammarPath": "spanish_grammar.json"
+      }
+    ]
+  }

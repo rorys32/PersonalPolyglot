@@ -1,0 +1,9 @@
+{
+    "phrases": [
+      {"phrase": "Hallo, wie geht es dir?", "translation": "Hello, how are you?", "phonetics": "HAH-lo, VEE gayt es deer", "category": "Greetings and Introductions"},
+      {"phrase": "Wo ist die Toilette?", "translation": "Where is the restroom?", "phonetics": "VOH ist dee toy-LET-uh", "category": "Using the Restroom"},
+      {"phrase": "Kann ich die Speisekarte haben?", "translation": "Can I have the menu?", "phonetics": "KAHN ikh dee SHPIE-zeh-kar-tuh HA-ben", "category": "Ordering Food"},
+      {"phrase": "Ich brauche Hilfe von der Polizei.", "translation": "I need help from the police.", "phonetics": "Ikh BROW-khuh HIL-fuh fon der po-lee-TSY", "category": "Asking for Help from Police"},
+      {"phrase": "Ich brauche einen Arzt.", "translation": "I need a doctor.", "phonetics": "Ikh BROW-khuh AY-nen ARTST", "category": "Asking for Help from a Doctor"}
+    ]
+  }

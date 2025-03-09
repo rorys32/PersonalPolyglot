@@ -1,0 +1,10 @@
+{
+    "rules": [
+      {"question": "Conjugate 'spielen' for 'ich'", "answer": "spiele", "explanation": "For -en verbs, drop -en and add -e for 'ich'."},
+      {"question": "Translate 'The dog eats' with correct article (nominative)", "answer": "Der Hund isst", "explanation": "Use 'der' for masculine nominative singular as the subject."},
+      {"question": "Conjugate 'gehen' for 'wir'", "answer": "gehen", "explanation": "For 'wir', most verbs keep the infinitive form."},
+      {"question": "Translate 'I see the dog' with correct article (accusative)", "answer": "Ich sehe den Hund", "explanation": "Use 'den' for masculine accusative singular as the direct object."},
+      {"question": "Translate 'I give the dog a bone' with correct article (dative)", "answer": "Ich gebe dem Hund einen Knochen", "explanation": "Use 'dem' for masculine dative singular as the indirect object."},
+      {"question": "Translate 'The collar of the dog is blue' with correct article (genitive)", "answer": "Das Halsband des Hundes ist blau", "explanation": "Use 'des' + -es for masculine genitive singular to show possession."}
+    ]
+  }

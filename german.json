@@ -1,0 +1,16 @@
+{
+    "language": "German",
+    "vocab": [
+      {"word": "Hallo", "translation": "Hello", "phonetics": "HAH-lo", "category": "Greetings"},
+      {"word": "Bus", "translation": "Bus", "phonetics": "BOOS", "category": "Public Transportation"},
+      {"word": "Geld", "translation": "Money", "phonetics": "GELT", "category": "Money and Counting"}
+    ],
+    "phrases": [
+      {"phrase": "Wo ist die Toilette?", "translation": "Where is the restroom?", "phonetics": "VOH ist dee toy-LET-uh", "category": "Using the Restroom"},
+      {"phrase": "Ich brauche Hilfe von der Polizei.", "translation": "I need help from the police.", "phonetics": "Ikh BROW-khuh HIL-fuh fon der po-lee-TSY", "category": "Asking for Help from Police"},
+      {"phrase": "Ich lerne nur diese Sprache. Sprechen Sie Englisch?", "translation": "I’m only learning this language. Do you speak English?", "phonetics": "Ikh LERN-uh noor DEE-zuh SH PRAH-khuh. SHPREKH-en zee ENG-lish?", "category": "Polite Language"}
+    ],
+    "grammar": [
+      {"rule": "Present tense -en verbs", "example": "Ich spiele (I play)", "explanation": "Drop -en, add -e for ich."}
+    ]
+  }

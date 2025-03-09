@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Polyglot</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <!-- 1.0.006 -->
+</head>
+<body>
+    <header>
+        <h1>Personal Polyglot</h1>
+        <div id="progressBarContainer">
+            <p>Today's Goal: Review 10 phrases</p>
+            <progress id="dailyProgress" value="0" max="10"></progress>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <button id="quizzesBtn">Take Quiz</button>
+            <button id="progressBtn">View Progress</button>
+            <button id="exportBtn">Export Data</button>
+            <button id="resetProgressBtn">Reset Daily Progress</button>
+        </nav>
+        <section id="languages">
+            <div id="languageContainers" class="sortable">
+                <!-- Language containers will be dynamically populated -->
+            </div>
+        </section>
+        <section id="quizzes" class="hidden">
+            <h2>Quizzes</h2>
+            <div id="quizContainer"></div>
+            <button id="submitQuiz">Submit</button>
+        </section>
+        <section id="progress" class="hidden">
+            <h2>Your Progress</h2>
+            <div id="progressStats"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Version 1.0.006 | © 2025 Copyright Forest Global Training Partners</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
